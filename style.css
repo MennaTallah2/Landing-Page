@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing:border-box;
+}
+html ,body{
+    font-size: 14px;
+    color: balck;
+  
+    scroll-behavior: smooth;
+
+}
+#container{
+    width: 100%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+} 
+.navbar{
+    height:50px;
+    background-color: bisque;
+    position: sticky;
+    top: 0;
+
+}
+.listContainer{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.content{
+    height: 100%;
+
+}
+
+.list-item a{
+    font-size: 20px;
+    padding: 7px;
+    font-weight: bold;
+     color: rgb(41, 9, 99);
+    text-decoration: none;
+    }
+.list-item :hover{
+    background-color: rgb(109, 109, 109);
+    padding: 7px;
+    border-radius:15px;
+
+}
+.list-item:hover a{
+    color: white;
+}
+.active{
+    background-color: rgb(109, 109, 109);
+    padding: 7px;
+    border-radius:20px;
+}
+.active a{
+    color: white;
+}
+  
+.section{
+    height: auto;
+    line-height: 30px;
+    padding: 10px;
+    align-content: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+.section p{
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+}
+.section h1{
+    padding: 15px
+}
+.topButton{
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px;
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: bisque;
+    color: grey;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 18px;
+}
+.topButton:hover{
+    background-color: grey;
+    color:bisque ;
+}
